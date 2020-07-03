@@ -178,9 +178,11 @@ const Pomodoro = () => {
       </div>
       <h3 id="subtitle">
         Designed & Coded by{" "}
-        <a href="https://twitter.com/YavuzSonmez_">
+        <a href="https://yavuzsonmez.com/">
           {">> "}Yavuz Sönmez{" <<"}
         </a>
+        <br />
+        <a href="https://yavuzsonmez.com/portofolio">Return to Portofolio</a>
       </h3>
       <audio id="beep">
         <source
