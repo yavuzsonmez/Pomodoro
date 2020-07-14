@@ -3,4 +3,4 @@
 **Pomodoro**
 
 
-**Stack: Html, Css, Javascript, React (hook)**
+**Stack: Html, Css, Javascript, React (hooks: useState, useEffect)**
