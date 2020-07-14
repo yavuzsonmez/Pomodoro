@@ -147,10 +147,17 @@ a:hover {
   #session_border {
     margin-bottom: 20px;
   }
+  #root {
+    all: inherit;
+  }
+  #pomodoro {
+    margin-top: 10%;
+  }
 }
 
 @media screen and (max-width: 700px) {
-  #pomodoro {
-    margin-top: 10%;
+  #break-length,
+  #session-length {
+    margin-left: 30px;
   }
 }
