@@ -115,11 +115,11 @@ a:hover {
 
 @media screen and (max-width: 1150px) {
   #left {
-    margin-right: 25px;
+    margin-right: 50px;
   }
 
   #right {
-    margin-left: 25px;
+    margin-left: 50px;
   }
 
   #break-label,
@@ -137,7 +137,7 @@ a:hover {
 
   #break-length,
   #session-length {
-    margin-top: 25px;
+    margin-top: 50px;
     margin-left: 80px;
   }
 
@@ -146,37 +146,5 @@ a:hover {
   }
   #session_border {
     margin-bottom: 20px;
-  }
-}
-@media screen and (max-width: 700px) {
-  #center {
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 125px;
-  }
-  #subtitle {
-    position: absolute;
-    margin-top: 300px;
-    margin-left: 75px;
-    font-size: 17px;
-  }
-  #title {
-    font-size: 35px;
-  }
-  #left,
-  #right {
-    margin: auto;
-  }
-  #break-label,
-  #session-length,
-  #break-length,
-  #session-label,
-  #time-left,
-  #timer-label,
-  #start_stop,
-  #reset,
-  #subtitle,
-  #a {
-    font-size: 18px;
   }
 }

@@ -115,7 +115,7 @@ const Pomodoro = () => {
       <h1 id="title">Pomodoro Clock</h1>
       <div id="left">
         <button
-          class="minus"
+          className="minus"
           id="break-decrement"
           onClick={(e) => decrement(e.target.id)}
         >
@@ -125,7 +125,7 @@ const Pomodoro = () => {
         <br />
         <h1 id="break-length">{secondsToMinutes(Break)}</h1>
         <button
-          class="plus"
+          className="plus"
           id="break-increment"
           onClick={(e) => increment(e.target.id)}
         >
@@ -135,7 +135,7 @@ const Pomodoro = () => {
 
       <div id="right">
         <button
-          class="minus"
+          className="minus"
           id="session-decrement"
           onClick={(e) => decrement(e.target.id)}
         >
@@ -145,7 +145,7 @@ const Pomodoro = () => {
         <br />
         <h1 id="session-length">{secondsToMinutes(session)}</h1>
         <button
-          class="plus"
+          className="plus"
           id="session-increment"
           onClick={(e) => increment(e.target.id)}
         >
